@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+  <form action="conect.php" method="post">
+ <div class="wrapper">
+    <div class="title">
+      Patient's detail
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label for="firstName">First Name</label>
+          <input type="text" class="input" id="firstName" name="firstName" />
+       </div>  
+        <div class="inputfield">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="input" id="lastname" name="lastName">
+       </div>  
+      
+        <div class="inputfield">
+          <label for="gender">Gender</label>
+          <div class="custom_select">
+            <div>
+              
+              <label for="male" class="radio-inline"><input type="radio" name="gender" value="m">Male</label> 
+              <label for="female" class="radio-inline"><input type="radio" name="gender" value="f">female</label> 
+            </div>
+          </div>
+       </div> 
+      <div class="inputfield">
+          <label for="symtoms">Symtoms</label>
+          <input type="text" class="input" id="symtoms" name="symtoms">
+       </div>
+        <div class="inputfield">
+          <label for="temperature">Temperature</label>
+          <input type="number" class="input" id="temperature" name="temperature">
+       </div> 
+         <div class="inputfield">
+          <label for="glucoseLevel">Glucose level</label>
+          <input type="number" class="input" id="glucoseLevel" name="glucoseLevel">
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Submit" class="btn">
+      </div>
+    </div>
+</div>
+</form>
+
+</body>
+</html>
